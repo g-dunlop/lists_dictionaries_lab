@@ -64,3 +64,43 @@ users = {
 # 8. Change Erik's hometown to Edinburgh
 # 9. Add a pet dog to Erik called "Fluffy"
 # 10. Add another person to the users dictionary
+
+# 1
+# print(users["Jonathan"]["twitter"])
+
+#2
+# print(users["Erik"]["home_town"])
+
+# 3
+# print(users["Erik"]["lottery_numbers"])
+
+# 4
+# print(users["Avril"]["pets"][0]["species"])
+
+# 5
+# print(min(users["Erik"]["lottery_numbers"]))
+
+# 6
+# even_numbers = []
+
+# for number in users["Avril"]["lottery_numbers"]:
+#   if number % 2 == 0:
+#     even_numbers.append(number)
+# print(even_numbers)
+
+# 7
+# users["Erik"]["lottery_numbers"].append(7)
+# print(users["Erik"]["lottery_numbers"])
+
+# 8
+# users["Erik"]["home_town"] = "Edinburgh"
+# print(users["Erik"]["home_town"])
+
+# 9
+# users["Erik"]["pets"].append( {"name" : "Fluffy", "species" : "dog"})
+# print(users["Erik"]["pets"])
+
+# 10
+# users["Bob"] = {"twitter" : "theBob", "lottery_numbers" : [2,3,4,5,6], "home_town" : "Larbert"
+# }
+# print(users)
